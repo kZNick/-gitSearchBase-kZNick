@@ -1,0 +1,60 @@
+.Card-direito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 100px 0 180px;
+    width: 50%;
+    background-color: var(--color-grey-2);
+}
+.Card-direito h2{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.Card-direito label{
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+.input-users{
+    width: 316px;
+    height: 38px;
+    background-color: var(--color-grey-1);
+    border: 1px solid #ffffff1f;
+    border-radius: 4px;
+    padding: 10px;
+    color: #ffffff46;
+    margin-bottom: 25px;
+}
+.input-erro{
+    display: none;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: var(--color-alert);
+}
+.display-on{
+    display: flex;
+}
+.input-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 316px;
+    height: 38px;
+    border-radius: 4px;
+    border: none;
+    background: var(--color-brand-2-transparent);
+    color: rgba(255, 255, 255, 0.378);
+    cursor: no-drop;
+}
+.input-button-on{
+    background: var(--color-brand-2);
+    color: #ffffff;
+    cursor: pointer;
+}

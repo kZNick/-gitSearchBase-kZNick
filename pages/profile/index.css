@@ -1,1 +1,4 @@
 /* Desenvolva sua estilização aqui...*/
+body{
+    background-color: var(--color-grey-2);
+}

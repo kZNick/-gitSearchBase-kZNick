@@ -1,0 +1,45 @@
+.modalErro{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: fixed;
+    background-color: var(--color-brand-1);
+    padding: 10px;
+    border-radius: 70px;
+    top: 1%;
+    left: 40%;
+}
+.modal-Img{
+    width: 30px;
+
+}
+.modal-titulo{
+    font-weight: 500;
+    font-size: 1rem;
+}
+body .modalErro{
+    animation: modalAnimation 3s;
+}
+.modal-on{
+    display: flex;
+  }
+
+@keyframes modalAnimation {
+    0%{
+        opacity: 0;
+        transform: translateY(-60%);
+    }
+    20%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    70%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(0);
+    }
+}

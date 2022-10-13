@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/globalStyles.css" />
+    <link rel="stylesheet" href="pages/home/index.css" />
+    <link rel="stylesheet" href="styles/home/Card-esquerdo.css" />
+    <link rel="stylesheet" href="styles/home/Card-direito.css" />
+    <link rel="shortcut icon" href="assets/icone-github-rouge.png" type="image/x-icon">
+    <title>Git Search</title>
+  </head>
+  <body>
+    <main>
+      <div class="Card-esquerdo">
+        <h1>Git Search</h1>
+        <h2>Encontre e se conecte com profissionais de forma rápida e fácil </h2>
+        <div class="surgestaoes">
+          <h2>Achados Recentemente:</h2>
+
+        </div>
+      </div>
+      <div class="Card-direito">
+        <h2>Procurar por um usuário</h2>
+        <form>
+          <label for="inputUser">Usuário github</label>
+          <input type="text" class="input-users" id="inputUser" placeholder="Digite um usuário do github aqui..." required="true">
+          <p class="input-erro">Usuário não encontrado</p>
+          <button class="input-button">Ver perfil do github</button>
+        </form>
+      </div>
+    </main>
+    <script src="pages/home/index.js"></script>
+  </body>
+</html>

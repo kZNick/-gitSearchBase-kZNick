@@ -1,0 +1,64 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.perfil{
+    display: flex;
+    margin-top: 61px;
+    gap: 30px;
+}
+.perfil-img{
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid var(--color-brand-2);
+    cursor: pointer;
+}
+.perfil-inf{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.perfil-name{
+    font-weight: 700;
+    font-size: 24px;
+}
+.perfil-bio{
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.bottoes{
+    display: flex;
+    margin-top: 61px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.button-email{
+    width: 84px;
+    height: 38px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--color-brand-6);
+    border-radius: 8px;
+    border: none;
+    background-color: var(--color-brand-2);
+    cursor: pointer;
+}
+.button-email a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--color-brand-6);
+}
+.button-trocarPerfil{
+    color: var(--color-brand-6);
+    width: 169px;
+    height: 38px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    background: var(--color-grey-4);
+    cursor: pointer;
+}
