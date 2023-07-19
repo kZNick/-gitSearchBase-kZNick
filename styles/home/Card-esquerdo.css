@@ -15,28 +15,34 @@ main{
 .Card-esquerdo h1{
     font-weight: 600;
     font-size: 2rem;
+    max-width: 100%;
 }
 .Card-esquerdo h2{
     font-weight: 400;
     font-size: 1.25rem;
+    max-width: 100%;
 }
 .surgestaoes{
     display: flex;
     align-items: center;
     gap: 30px;
+    max-width: 100%;
   }
 .surgestaoes h2{
     font-weight: 500;
     font-size: 1.2rem;
+    max-width: 100%;
   }
 .surgestaoes-button{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    max-width: 100%;
 }
 .user-img{
     width: 44px;
     border-radius: 50%;
+    max-width: 100%;
   }
 .surgestaoes-button p{
     display: none;
@@ -47,7 +53,15 @@ main{
     border-radius: 4px;
     position: absolute;
     font-family: 'Inter Tight', sans-serif;
+    max-width: 100%;
 }
 .surgestaoes-button:hover p{
     display: flex;
+    max-width: 100%;
 }
+
+@media (max-width: 850px) {
+    .Card-esquerdo{
+        display: none;
+    }
+  }

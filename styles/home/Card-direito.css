@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 20px;
-    padding: 0 100px 0 180px;
     width: 50%;
+    max-width: 100%;
     background-color: var(--color-grey-2);
 }
 .Card-direito h2{
@@ -15,11 +16,14 @@
 form{
     display: flex;
     flex-direction: column;
+
+    max-width: 100%;
 }
 .Card-direito label{
     font-weight: 500;
     font-size: 1rem;
     margin-bottom: 25px;
+    max-width: 100%;
 }
 .input-users{
     width: 316px;
@@ -30,6 +34,7 @@ form{
     padding: 10px;
     color: #ffffff46;
     margin-bottom: 25px;
+    max-width: 100%;
 }
 .input-erro{
     display: none;
@@ -37,9 +42,11 @@ form{
     font-weight: 400;
     font-size: 0.9rem;
     color: var(--color-alert);
+    max-width: 100%;
 }
 .display-on{
     display: flex;
+    max-width: 100%;
 }
 .input-button{
     display: flex;
@@ -52,9 +59,20 @@ form{
     background: var(--color-brand-2-transparent);
     color: rgba(255, 255, 255, 0.378);
     cursor: no-drop;
+    max-width: 100%;
 }
 .input-button-on{
     background: var(--color-brand-2);
     color: #ffffff;
     cursor: pointer;
+    max-width: 100%;
 }
+
+@media (max-width: 850px) {
+    .Card-direito{
+        width: 100%;
+        height: 100vh;
+        max-height: 100%;
+        padding: 0 25px;
+    }
+  }
